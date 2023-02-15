@@ -1,0 +1,13 @@
+{
+  "name": "Good on you indicator",
+  "description": "Easily view the rating of brands in the goodonyou.eco directory",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Click me"
+  },
+  "permissions": ["activeTab", "scripting"]
+}
